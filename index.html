@@ -6,8 +6,8 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- <p id="demo"></p>
-    <script>
+     <p id="demo"></p>
+    <!--<script>
         const x=5;
         const y=10;
         let z=x+y;
@@ -21,7 +21,7 @@
         let b=a*100;
         document.getElementById("demo").innerHTML="The output is" +b
     </script> -->
- <p id="demo"></p>
+    <!-- <p id="demo"></p> -->
     <!-- <script>
         let x=10;
         x+=5;
@@ -119,6 +119,208 @@
         console.log(a.push("abc"))
         console.log(a)
     </script> -->
+
+    <!--if else else if-->
+    <!-- <script>
+    let x=5;
+    if(x>10){
+        console.log("x is greater than 10")
+    }
+    else if(x==5){
+        console.log("x is equal to 5")
+    }
+    else{
+        console.log("x value is undefined")
+    }
+</script> -->
+
+<!-- <script>
+    const time=new Date().getHours();
+    let greeting;
+    if(time<10){
+        greeting="Good Morning";
+    }
+    else if(time<20){
+        greeting="Good day";
+    
+    }else{
+        greeting="Good evening";
+    }
+    document.getElementById("demo").innerHTML=greeting; -->
+    <!--console.log(greeting)-->
+    
+    <!-- </script> -->
+    <!--switch syntax-->
+    <!-- <script>
+        switch(expression){
+            case x:
+                //code block;
+                break;
+            case y:
+                //code block;
+                break;
+            default:
+                //code block
+        }
+
+    </script> -->
+    <!--<script>
+        //let Day;
+        //switch(new Date().getDay()){
+            //case 0:
+                //Day="Sunday";
+                //break;
+            //case 1:
+                //Day="Monday";
+                //break; 
+            //case 2:
+                //Day="Tuesday";
+                //break;
+            //case 3:
+                //Day="Wednesday";
+               // break;
+            //case 4:
+                //Day="Tursday";
+                //break;
+            //case 5:
+                //Day="Friday";
+                //break;
+            //case 6:
+                //Day="Saturday";
+                //break;
+                  
+        //}
+        //default
+        //switch(new Date().getDay()){
+           // case 0:
+                //Day="Sunday";
+                //break;
+            //case 1:
+                //Day="Monday";
+                //break; 
+            //case 2:
+                //Day="Tuesday";
+                //break;
+            //case 3:
+                //Day="Wednesday";
+                //break;
+            //case 4:
+                //Day="Tursday";
+                //break;
+            //default:
+                //Day="Day is not available"
+        //}
+        //document.getElementById("demo").innerHTML= Day;
+    </script>-->
+    <!--search method-->
+    <!-- <script>
+        let text="Accelerlab Solutions";
+        console.log(text);
+        console.log(text.search("Solutions"));
+
+    </script> -->
+
+    <!--replace method-->
+    <!-- <button onclick="myFunction()">Replace</button>
+    <p id="demo">Please visit Moodbidri</p>
+    <script>
+        function myFunction(){
+            let text=document.getElementById("demo").innerHTML;
+            document.getElementById("demo").innerHTML=
+            text.replace("Moodbidri","Accelerlab");
+        }
+        
+
+    </script> -->
+
+    <!--error message-->
+    <!--try catch-->
+    <!--without the error-->
+    <!-- <script>
+        try{
+            alert("Hello from Accelerlab")
+        }
+        catch(error){
+            console.log(error.message)
+        }
+    </script> -->
+    <!--with the error-->
+    <!-- <script>
+        try{
+            allert("Hello from Accelerlab")
+        }
+        catch(error){
+            console.log(error.message)
+        }
+    </script> -->
+    <!--es6 functions-->
+    <!-- <script>
+        function myFunc(){
+            //code to be executed
+        }
+
+    //Arrow function
+    const myfunc=()=>{
+
+    }
+
+    </script> -->
+    <!--map-->
+    <!-- <script>
+        const myArray=['apple','banana','orange'];
+        myArray.map((item)=>console.log(item))
+    </script> -->
+    <!-- array destructuring -->
+    <!-- <script>
+        const numbers=[1,2,3,4];
+        const[first,second,third,fourth]=numbers;
+        console.log(first,second,third,fourth);
+        console.log(second);
+
+    </script> -->
+    <!-- object destruction -->
+    <!-- <script>
+        const person={name:'john',age:35,job:'developer'};
+        const{name,age,job}=person;
+        console.log(name,age,job);
+    </script> -->
+
+    <!-- spread operator (merging one array with another using spread operator (3 dots))-->
+    <!-- <script>
+        let a=[1,2,3,4]
+        let b=["Shravya","Suraksha","Shwetha","Pratheek"]
+        let c=[...a,...b]
+        console.log(c);
+    </script> -->/
+
+    <!-- <script>
+        const numbers=[1,2,3,4,5,6]
+        const [a,b,...c]=numbers
+        console.log(a,b,c)
+    </script> -->
+
+    <!-- spread operator with object -->
+    <!-- <script>
+        let myVehicle={
+            brand:'ford',
+            model:'mustang',
+            color:'red'
+        }
+        let updateMyVehicle={
+            type:'car',
+            year:'2021',
+            color:'yellow'
+        }
+        const myUpdatedVehicle={...myVehicle, ...updateMyVehicle}
+        console.log(myUpdatedVehicle)
+    </script> -->
+
+    <!-- ternary operator -->
+    <!-- <script>
+        let x=10;
+        x===10 ? console.log("match"):console.log("not match"); //: this is for else, ? it is for ternary
+    </script> -->
+
     
 
 </body>
